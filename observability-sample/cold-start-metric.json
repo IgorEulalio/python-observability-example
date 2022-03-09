@@ -1,0 +1,27 @@
+{
+  "_aws": {
+    "Timestamp": 1646852834426,
+    "CloudWatchMetrics": [
+      {
+        "Namespace": "comunnity-builder-serverless",
+        "Dimensions": [
+          [
+            "function_name",
+            "service"
+          ]
+        ],
+        "Metrics": [
+          {
+            "Name": "ColdStart",
+            "Unit": "Count"
+          }
+        ]
+      }
+    ]
+  },
+  "function_name": "Function",
+  "service": "python-lambda-observability-example",
+  "ColdStart": [
+    1.0
+  ]
+}
